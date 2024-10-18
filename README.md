@@ -175,5 +175,5 @@ This script defines a function `incrementarPorValor()` which increments a passed
 ### How to Run the Scripts:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Javigarcilop/PHP-exercises.git
+   git clone https://github.com/Javigarcilop/RA2_AF_Ejercicios_Taller_en_PHP.git
 
