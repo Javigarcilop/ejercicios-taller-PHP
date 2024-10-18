@@ -177,10 +177,3 @@ This script defines a function `incrementarPorValor()` which increments a passed
    ```bash
    git clone https://github.com/Javigarcilop/PHP-exercises.git
 
-
-### Notas:
-- Cambié el usuario de GitHub a `https://github.com/Javigarcilop/PHP-exercises.git`.
-- Asegúrate de ajustar la descripción de los archivos y las instrucciones si es necesario.
-- Considera agregar un archivo `LICENSE` si decides usar una licencia de código abierto, como MIT. 
-
-¡Ahora solo tienes que subir el `README.md` a tu repositorio!
