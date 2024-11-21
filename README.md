@@ -1,179 +1,157 @@
-# PHP Exercises - Web Applications Development
+# Ejercicios PHP - Desarrollo de Aplicaciones Web
 
-This repository contains various PHP exercises related to the course "Desarrollo de Aplicaciones Multiplataforma/Web" as part of the DWEC module, guided by **Professor Carlos Basulto Pardo**.
+Este repositorio contiene diversos ejercicios de PHP relacionados con el curso "Desarrollo de Aplicaciones Multiplataforma/Web" como parte del módulo DWEC, guiado por el Profesor Carlos Basulto Pardo.
 
-## Table of Contents
+## Tabla de Contenidos
 
-1. [Theme 2: PHP Syntax](#theme-2-php-syntax)
-   - [Exercise 1: Echo and Embedded HTML](#exercise-1-echo-and-embedded-html)
-   - [Exercise 2: Comments and Best Practices](#exercise-2-comments-and-best-practices)
-   - [Exercise 3: Variables and Constants](#exercise-3-variables-and-constants)
-2. [Theme 3: Types, Variables, and Constants](#theme-3-types-variables-and-constants)
-   - [Exercise 1: Types and Conversion](#exercise-1-types-and-conversion)
-   - [Exercise 2: Multidimensional Arrays](#exercise-2-multidimensional-arrays)
-   - [Exercise 3: Interest Rate Calculation](#exercise-3-interest-rate-calculation)
-3. [Theme 4: Operators](#theme-4-operators)
-4. [Theme 5: Control Structures](#theme-5-control-structures)
-5. [Theme 6: Arrays](#theme-6-arrays)
-6. [Theme 7: Functions](#theme-7-functions)
+**Tema 2: Sintaxis de PHP**
+- Ejercicio 1: Echo e HTML embebido
+- Ejercicio 2: Comentarios y Buenas Prácticas
+- Ejercicio 3: Variables y Constantes
 
----
+**Tema 3: Tipos, Variables y Constantes**
+- Ejercicio 1: Tipos y Conversión
+- Ejercicio 2: Arreglos Multidimensionales
+- Ejercicio 3: Cálculo de Tasa de Interés
 
-## Theme 2: PHP Syntax
+**Tema 4: Operadores**
+- Ejercicio 1: Operadores de Asignación y Condicionales
 
-### Exercise 1: Echo and Embedded HTML
+**Tema 5: Estructuras de Control**
+- Ejercicio 1: Sentencias If-Else para la Edad
+- Ejercicio 2: Bucle Do-While para Números Positivos
 
-**Description:**
-This exercise demonstrates how to generate HTML using PHP's `echo` statement. It generates a form where the user can input their name and see it displayed after submission.
+**Tema 6: Arreglos**
+- Ejercicio 1: Recorrido de Arreglos
 
-**File:** `form_echo.php`
+**Tema 7: Funciones**
+- Ejercicio 1: Funciones y Argumentos por Referencia
 
-**Instructions:**
-1. Open the file in the browser.
-2. Enter your name in the form and submit it.
-3. The page will display your name.
+## Tema 2: Sintaxis de PHP
 
----
+### Ejercicio 1: Echo e HTML Embebido
+**Descripción:**  
+Este ejercicio muestra cómo generar HTML utilizando la sentencia `echo` de PHP. Genera un formulario donde el usuario puede ingresar su nombre y verlo después de enviarlo.
 
-### Exercise 2: Comments and Best Practices
+**Archivo:** `form_echo.php`
 
-**Description:**
-This exercise covers commenting in PHP and writing clean, understandable code. It defines a function `calcularAreaRectangulo($ancho, $alto)` and calculates the area of a rectangle.
+**Instrucciones:**
+1. Abre el archivo en el navegador.
+2. Ingresa tu nombre en el formulario y envíalo.
+3. La página mostrará tu nombre.
 
-**File:** `area_rectangulo.php`
+### Ejercicio 2: Comentarios y Buenas Prácticas
+**Descripción:**  
+Este ejercicio cubre cómo comentar en PHP y escribir código limpio y comprensible. Se define una función `calcularAreaRectangulo($ancho, $alto)` que calcula el área de un rectángulo.
 
-**Instructions:**
-- Review the code for comments explaining each part of the script.
-- Run the script to see how it calculates the area of a rectangle.
+**Archivo:** `area_rectangulo.php`
 
----
+**Instrucciones:**
+1. Revisa el código, los comentarios explican cada parte del script.
+2. Ejecuta el script para ver cómo calcula el área de un rectángulo.
 
-### Exercise 3: Variables and Constants
+### Ejercicio 3: Variables y Constantes
+**Descripción:**  
+En este ejercicio, se define una constante `GRAVEDAD` con el valor de 9.8. Una función verifica si el planeta ingresado es la Tierra y luego calcula la fuerza gravitacional utilizando la masa ingresada.
 
-**Description:**
-In this exercise, we define a constant `GRAVITY` with a value of 9.8. A function checks if the inputted planet is Earth and then calculates the gravitational force using the entered mass.
+**Archivo:** `gravedad.php`
 
-**File:** `gravedad.php`
+**Instrucciones:**
+1. Ingresa la masa y el nombre del planeta para ver la fuerza gravitacional calculada.
 
-**Instructions:**
-- Input the mass and planet name to see the calculated gravitational force.
+## Tema 3: Tipos, Variables y Constantes
 
----
+### Ejercicio 1: Tipos y Conversión
+**Descripción:**  
+Este script demuestra la conversión de tipos de datos. Una cadena que contiene un número ("25") se convierte a entero, y luego se suma con otro número entero. El resultado se muestra utilizando `var_dump()`.
 
-## Theme 3: Types, Variables, and Constants
+**Archivo:** `conversion.php`
 
-### Exercise 1: Types and Conversion
+**Instrucciones:**
+1. Ejecuta el script para ver cómo PHP maneja la conversión de tipos y el resultado de la suma.
 
-**Description:**
-This script demonstrates data type conversion. A string containing a number (`"25"`) is converted to an integer, and then summed with another integer. The result is displayed using `var_dump()`.
+### Ejercicio 2: Arreglos Multidimensionales
+**Descripción:**  
+En este ejercicio, se almacena información de estudiantes en un arreglo multidimensional, incluyendo sus nombres, edades y calificaciones. El script calcula y muestra la calificación promedio de cada estudiante.
 
-**File:** `conversion.php`
+**Archivo:** `alumnos.php`
 
-**Instructions:**
-- Run the script to see how PHP handles type conversion and the result of the sum.
+**Instrucciones:**
+1. Ejecuta el script para mostrar la información de los estudiantes y sus calificaciones promedio.
 
----
+### Ejercicio 3: Cálculo de Tasa de Interés
+**Descripción:**  
+Se define una constante `TASA_INTERES` con el valor de 0.05. El script toma una cantidad principal del usuario y calcula el interés después de un año utilizando la constante.
 
-### Exercise 2: Multidimensional Arrays
+**Archivo:** `interes_simple.php`
 
-**Description:**
-In this exercise, a multidimensional array stores information about students, including their names, ages, and grades. The script calculates and displays the average grade for each student.
+**Instrucciones:**
+1. Ingresa una cantidad principal para ver el interés calculado.
 
-**File:** `alumnos.php`
+## Tema 4: Operadores
 
-**Instructions:**
-- Execute the script to display student information and their average grades.
+### Ejercicio 1: Operadores de Asignación y Condicionales
+**Descripción:**  
+Este ejercicio demuestra el uso de operadores de asignación para modificar el valor de una variable y sentencias condicionales para verificar si el valor final es mayor que 100.
 
----
+**Archivo:** `operadores_asignacion.php`
 
-### Exercise 3: Interest Rate Calculation
+**Instrucciones:**
+1. Ejecuta el script para ver el valor final después de aplicar los operadores de asignación y las condicionales.
 
-**Description:**
-A constant `TASA_INTERES` is defined with a value of 0.05. The script takes a principal amount from the user and calculates the interest after one year using the constant.
+## Tema 5: Estructuras de Control
 
-**File:** `interes_simple.php`
+### Ejercicio 1: Sentencias If-Else para la Edad
+**Descripción:**  
+El script pide la edad del usuario y utiliza sentencias if-else para categorizar al usuario según su edad.
 
-**Instructions:**
-- Enter a principal amount to see the calculated interest.
+**Archivo:** `edad.php`
 
----
+**Instrucciones:**
+1. Ingresa tu edad para ver el mensaje correspondiente a tu grupo de edad.
 
-## Theme 4: Operators
+### Ejercicio 2: Bucle Do-While para Números Positivos
+**Descripción:**  
+Este script utiliza un bucle do-while para pedir un número positivo hasta que el usuario ingrese uno.
 
-### Exercise 1: Assignment and Conditional Operators
+**Archivo:** `numero_positivo.php`
 
-**Description:**
-This exercise demonstrates the use of assignment operators to modify a variable's value and conditional statements to check if the final value is greater than 100.
+**Instrucciones:**
+1. Ingresa números hasta que se ingrese uno positivo.
 
-**File:** `operadores_asignacion.php`
+## Tema 6: Arreglos
 
-**Instructions:**
-- Run the script to see the final value after applying assignment operators and conditionals.
+### Ejercicio 1: Recorrido de Arreglos
+**Descripción:**  
+Un arreglo de números del 1 al 10 es recorrido utilizando `foreach`. Cada número es multiplicado por 2 y los resultados se almacenan en un nuevo arreglo.
 
----
+**Archivo:** `multiplicar_array.php`
 
-## Theme 5: Control Structures
+**Instrucciones:**
+1. Ejecuta el script para ver los arreglos original y multiplicado.
 
-### Exercise 1: If-Else Statements for Age
+## Tema 7: Funciones
 
-**Description:**
-The script asks for the user's age and uses if-else statements to categorize the user based on their age.
+### Ejercicio 1: Funciones y Argumentos por Referencia
+**Descripción:**  
+Este script define una función `incrementarPorValor()` que incrementa una variable pasada por 10, utilizando argumentos por referencia.
 
-**File:** `edad.php`
+**Archivo:** `referencia.php`
 
-**Instructions:**
-- Enter your age to see the message corresponding to your age group.
+**Instrucciones:**
+1. Ejecuta el script para ver el efecto de pasar variables por referencia.
 
----
+## Instrucciones de Configuración
 
-### Exercise 2: Do-While Loop for Positive Numbers
+### Requisitos Previos
 
-**Description:**
-This script uses a `do-while` loop to ask for a positive number until the user inputs one.
+- XAMPP o WAMP para ejecutar PHP localmente.
+- Visual Studio Code (o cualquier editor de código) para editar los archivos.
 
-**File:** `numero_positivo.php`
+### Cómo Ejecutar los Scripts
 
-**Instructions:**
-- Enter numbers until a positive one is entered.
-
----
-
-## Theme 6: Arrays
-
-### Exercise 1: Array Traversal
-
-**Description:**
-An array of numbers from 1 to 10 is traversed using `foreach`. Each number is multiplied by 2, and the results are stored in a new array.
-
-**File:** `multiplicar_array.php`
-
-**Instructions:**
-- Run the script to see the original and multiplied arrays.
-
----
-
-## Theme 7: Functions
-
-### Exercise 1: Functions and Reference Arguments
-
-**Description:**
-This script defines a function `incrementarPorValor()` which increments a passed variable by 10, using reference arguments.
-
-**File:** `referencia.php`
-
-**Instructions:**
-- Run the script to see the effect of passing variables by reference.
-
----
-
-## Setup Instructions
-
-### Prerequisites
-- **XAMPP** or **WAMP** for running PHP locally.
-- **Visual Studio Code** (or any code editor) for editing the files.
-
-### How to Run the Scripts:
-1. Clone the repository:
+Clona el repositorio:
    ```bash
    git clone https://github.com/Javigarcilop/RA2_AF_Ejercicios_Taller_en_PHP.git
+
 
